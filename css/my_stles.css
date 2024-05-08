@@ -1,0 +1,87 @@
+/* my_stles.css */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#background {
+    background-color: black;
+    color: white;   /* Font color */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#navbar {
+    background-color: #333; /* Navbar background color */
+    color: white; /* Navbar font color */
+    padding: 10px; /* Navbar padding */
+    margin : -8px; /* Navbar margin */
+    font-family: Arial, sans-serif; /* Navbar font family */
+}
+
+#navbar a {
+    color: white; /* Navbar link color */
+    padding: 14px 20px; /* Navbar link padding */
+    text-align: center; /* Navbar link text alignment */
+    text-decoration: none; /* Navbar link text decoration */
+    display: inline-block; /* Navbar link display */
+}
+
+a:hover {
+    background-color: rgb(112, 112, 112); /* Hover background color */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px; /* Header 1 font size */
+    text-align: left; /* Paragraph text alignment */
+    margin: 3vh 20px 3vh 30px; /* Paragraph margin */
+}
+
+canvas {
+    border-radius: 10px;
+    display: block; /* Canvas display */
+    margin: 0 auto; /* Canvas margin */
+}
+
+
+.p-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start; /* Aligns items to the start of the flex container */
+    flex-direction: column;
+    margin: 0px 0px 0px 0px; /* Paragraph container margin */
+}
+
+p {
+    font-size: 20px; /* Paragraph font size */
+    text-align: left; /* Paragraph text alignment */
+    margin: 1vh 20px 1vh 30px; /* Paragraph margin */
+}
+
+.content-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Aligns items to the start of the flex container */
+    margin: 0px 0px 0px 0px;
+}
+
+.canvas-container {
+    height: 400px; /* Placeholder height, adjust if needed */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 50%; /* Set a specific width or adjust as necessary */
+}
+
+pre {
+    border-radius: 10px;
+    margin: 0 0 0 20px;
+    width: 50%
+}
+
+code {
+    border-radius: 10px;
+    text-align: left; /* Code text alignment */
+    font-size: 14px; /* Preformatted text font size */
+    margin: 0; /* Code margin */
+}
